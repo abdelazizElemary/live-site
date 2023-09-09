@@ -25,7 +25,7 @@ module.exports = {
         bounceY: "bounceY 5s infinite",
       },
       fontFamily: {
-        "morris-roman": ['"Morris Roman Black"', "fallbackFontHere", "sans"],
+        "roboto-slab": ["Roboto Slab", "serif"],
       },
       backgroundColor: {
         primary: "#1a1a1a", // Dark black background

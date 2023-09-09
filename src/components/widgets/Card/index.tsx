@@ -21,7 +21,7 @@ const Card: React.FC<Props> = ({ title, subtitle, body, points, icons, blur = tr
     <div
       className={classNames(
         "flex flex-col",
-        "gap-6 w-[300px] min-h-[130px] md:min-h-[240px]",
+        "gap-6 w-[300px] min-h-[140px] md:min-h-[240px]",
         blur && "backdrop-blur-sm",
         "border rounded-[10px] p-3"
       )}
@@ -45,7 +45,7 @@ const Card: React.FC<Props> = ({ title, subtitle, body, points, icons, blur = tr
       {points && (
         <div className="flex flex-col gap-2">
           {points.map((point, idx) => (
-            <div key={idx} className="flex flex-row items-center gap-3">
+            <div key={idx} className="flex flex-row items-start gap-3">
               <p className="text-xl font-normal text-white text-opacity-70 capitalize">{point.title}:</p>
               <p className="text-xl font-bold capitalize text-white text-opacity-90">{point.description}</p>
             </div>

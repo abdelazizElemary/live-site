@@ -4,6 +4,7 @@ import MobilePicture from "../../../assets/images/mobilePic.png";
 import classNames from "classnames";
 import Card from "../Card";
 import { Fade } from "react-awesome-reveal";
+import { points } from "../../utils/data";
 
 type Props = {
   className?: string;
@@ -20,6 +21,14 @@ const AboutSection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref
       <p className="flex flex-row justify-center font-extrabold text-3xl md:text-7xl uppercase gradient-text-animated w-full">
         about
       </p>
+      <div className="flex flex-col gap-3 max-w-5xl">
+        {points.map((point, idx) => (
+          <div key={idx} className="flex flex-row items-start gap-3">
+            <p className="rounded-full w-2 h-2 bg-violet-0 mt-2.5" />
+            <p className="text-xl capitalize w-11/12">{point}</p>
+          </div>
+        ))}
+      </div>
       <div className="flex flex-col md:flex-row items-center justify-around">
         <div className="relative w-[400px] h-[800px]">
           <img
@@ -55,7 +64,7 @@ const AboutSection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref
         </Fade>
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <Card
-            title="3 different characters"
+            title="multiple characters"
             body="Pick from three different characters all with different special abilities"
             gradient
           />

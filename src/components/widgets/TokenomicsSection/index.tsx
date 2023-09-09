@@ -22,7 +22,7 @@ const TokenomicsSection = React.forwardRef<HTMLDivElement, Props>(({ className }
           <TokenomicsCard
             title="project"
             subtitle="All of the $Blast tokens are allocated to the liquidity pool of the game."
-            points={["100% initial liquidity pool"]}
+            points={["96% initial liquidity pool", "4% marketing wallet"]}
             blur
             gradient
           />
@@ -32,7 +32,7 @@ const TokenomicsSection = React.forwardRef<HTMLDivElement, Props>(({ className }
           <TokenomicsCard
             title="fees"
             headline="per transaction"
-            subtitle="Taxes fund the gas fees and software costs."
+            subtitle="Taxes fund the gas fees and marketing costs."
             points={["5% buy fee", "5% sell fee"]}
             blur
           />
@@ -43,7 +43,7 @@ const TokenomicsSection = React.forwardRef<HTMLDivElement, Props>(({ className }
             title="prizes"
             headline="per game"
             subtitle="Prizes are largely allocated to the players."
-            points={["2% burned", "3% gas fee share", "95% distributed to winners"]}
+            points={["2% burned", "3% taxes", "95% distributed to winners"]}
             blur
             gradient
           />

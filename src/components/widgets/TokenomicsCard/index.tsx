@@ -14,7 +14,7 @@ const TokenomicsCard: React.FC<Props> = ({ blur, title, headline, subtitle, grad
     <div
       className={classNames(
         "flex flex-col",
-        "w-[300px] gap-6 min-h-[212px] md:min-h-[310px]",
+        "w-[300px] gap-6 min-h-[212px] md:min-h-[330px]",
         blur && "backdrop-blur-sm",
         "border rounded-[10px] p-3"
       )}
@@ -41,8 +41,8 @@ const TokenomicsCard: React.FC<Props> = ({ blur, title, headline, subtitle, grad
       <p className="w-full h-[5px] rounded-lg bg-violet-0"></p>
       <div className="flex flex-col gap-2">
         {points.map((point, idx) => (
-          <div key={idx} className="flex flex-row items-center gap-3">
-            <p className="rounded-full w-2 h-2 bg-violet-0" />
+          <div key={idx} className="flex flex-row items-start gap-3">
+            <p className="rounded-full w-2 h-2 bg-violet-0 mt-2.5" />
             <p className="text-xl capitalize">{point}</p>
           </div>
         ))}

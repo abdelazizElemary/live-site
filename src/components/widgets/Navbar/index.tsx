@@ -20,7 +20,9 @@ const Navbar = React.forwardRef<HTMLDivElement, Props>(({ onClick }, ref) => {
         <p onClick={() => onClick?.("howToPlay")} className="cursor-pointer hover:text-3xl">
           Instructions
         </p>
-        <p className="cursor-pointer hover:text-3xl">Document</p>
+        <a href="https://twitter.com/ChampionArenaTG" target="__blank__" className="cursor-pointer hover:text-3xl">
+          Document
+        </a>
       </div>
       <Button variant="primary" className="hidden md:flex text-xl font-semibold h-14">
         Buy

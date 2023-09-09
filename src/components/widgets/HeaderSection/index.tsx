@@ -21,7 +21,7 @@ const HeaderSection = React.forwardRef<HTMLDivElement>((_, ref) => {
           <p className="text-base md:text-xl font-bold capitalize">and cunning are your tools, and</p>
           <p className="text-base md:text-xl font-bold capitalize">adversaries your worthy foes</p>
         </div>
-        <p className="text-3xl md:text-6xl font-extrabold uppercase gradient-text-animated">winnnings</p>
+        <p className="text-3xl md:text-6xl font-extrabold uppercase gradient-text-animated">Fight or Die</p>
         <div>
           <p className="text-lg font-semibold">We beseech thee to partake in our grandest</p>
           <p className="text-lg font-semibold">spectacle, the live action Telegram bot,</p>

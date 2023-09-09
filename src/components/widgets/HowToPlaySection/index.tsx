@@ -8,7 +8,7 @@ type Props = {
 };
 
 const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref) => {
-  const fadeDirection = "up";
+  const fadeDirection = "right";
   const fadeDuration = 1500;
   return (
     <div
@@ -23,8 +23,8 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <Card
             title="step 1"
-            subtitle="/Connect to our bot"
-            body="Interact with Arena_Bot to begin. This will lead you to our connnectAndApprove function."
+            subtitle="Connect to ARENA bot"
+            body="When you enter type /start to bring up @arena_bot. Follow the prompts from there."
             blur
             gradient
           />
@@ -34,7 +34,7 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
           <Card
             title="step 2"
             subtitle="Buy $Arena"
-            body="To initiate or join a game you will need to deposit $ARENA."
+            body="To Wager $ARENA you will be provided a link to buy $ARENA. The command will be /ca or you can buy in directly from our site by clicking on the buy button at the top of the page. "
             blur
           />
         </Fade>
@@ -42,8 +42,8 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <Card
             title="step 3"
-            subtitle="Fight"
-            body="In our Telegram use the command /arena or /join to begin a battle. During each turn it will prompt the fighter to choose their target and attack."
+            subtitle="Fight!"
+            body="To begin a game type the command /arena <bet size> this will start a game where others can join in.Each character will have different abilities and damage points caused."
             blur
             gradient
           />
@@ -52,16 +52,17 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <Card
             title="step 4"
-            subtitle="Probabilities"
-            points={[
-              { title: "Warrior", description: "25% miss, 50% 1, 25% 2" },
-              { title: "Mage", description: "50% 1, 50% 2" },
-              { title: "Cleric", description: "20% miss, 40% 1, 40% 2" },
-              { title: "Warrior", description: "6 HP & 1 average dmg" },
-              { title: "Mage", description: "4 HP & 1.5 average dmg, including a special" },
-              { title: "cleric", description: "5 HP & 1.25 average dmg, including a special" },
-            ]}
+            subtitle="Betting and Gameplay"
+            body="To start a game you will be asked to place a bet size type the command /arena <bet size>. When the round starts the player will be prompted to enter a command like type /roll <enemy_index>. on who they want to attack along with what kind of attack."
             blur
+            // points={[
+            //   { title: "Warrior", description: "25% miss, 50% 1, 25% 2" },
+            //   { title: "Mage", description: "50% 1, 50% 2" },
+            //   { title: "Cleric", description: "20% miss, 40% 1, 40% 2" },
+            //   { title: "Warrior", description: "6 HP & 1 average dmg" },
+            //   { title: "Mage", description: "4 HP & 1.5 average dmg, including a special" },
+            //   { title: "cleric", description: "5 HP & 1.25 average dmg, including a special" },
+            // ]}
           />
         </Fade>
       </div>
