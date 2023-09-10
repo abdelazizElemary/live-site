@@ -24,7 +24,7 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
           <Card
             title="step 1"
             subtitle="Connect to ARENA bot"
-            body="When you enter type /start to bring up @arena_bot. Follow the prompts from there."
+            body="Once interacting with the bot you will see a video down below on how to connect and verify your account."
             blur
             gradient
           />
