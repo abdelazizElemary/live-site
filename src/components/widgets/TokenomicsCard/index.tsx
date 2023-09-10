@@ -16,7 +16,7 @@ const TokenomicsCard: React.FC<Props> = ({ blur, title, headline, subtitle, grad
         "flex flex-col",
         "w-[300px] gap-6 min-h-[212px] md:min-h-[330px]",
         blur && "backdrop-blur-sm",
-        "border rounded-[10px] p-3"
+        "border border-black rounded-[10px] p-3"
       )}
     >
       <div

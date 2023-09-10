@@ -37,7 +37,7 @@ code {
 }
 
 .gradient-text-animated {
-  background: linear-gradient(90deg, rgba(233, 51, 255, 1) 0%, rgba(255, 180, 0, 1) 25%, rgba(255, 51, 51, 1) 50%, rgba(51, 77, 255, 1) 75%, rgba(233, 51, 255, 1) 100%);;
+  background: linear-gradient(90deg, rgb(162, 145, 164) 0%, rgb(0, 0, 0) 25%, #bd9aeb 75%, #b344fd 100%);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 200%;
@@ -49,7 +49,7 @@ p,
 div,
 button {
   font-family: 'Roboto Slab', serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -58,12 +58,12 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-  background: #cfa8ff;
+  background: #bd9aeb;
   border-radius: 100vh;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9c4aff;
+  background: #b344fd;
   border-radius: 100vh;
 }
 

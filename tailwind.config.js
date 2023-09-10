@@ -8,8 +8,8 @@ module.exports = {
       },
       colors: {
         violet: {
-          0: "#9c4aff",
-          1: "#eb02ed",
+          1: "#bd9aeb",
+          0: "#b344fd",
         },
         bg: {
           1: "#2e2e2e",
@@ -41,7 +41,7 @@ module.exports = {
         primary: "#f5f5f5", // Light grey, for borders on a dark background
       },
       backgroundImage: {
-        bgImage: "url('/src/assets/images/bgImage.png')",
+        bgImage: "url('/src/assets/images/bgImage.jpg')",
       },
     },
   },

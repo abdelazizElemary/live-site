@@ -1,6 +1,6 @@
 import React from "react";
 import Frame from "../../../assets/images/mobileFrame.png";
-import MobilePicture from "../../../assets/images/mobilePic.png";
+import MobilePicture from "../../../assets/images/aboutSection.jpeg";
 import classNames from "classnames";
 import Card from "../Card";
 import { Fade } from "react-awesome-reveal";

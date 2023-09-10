@@ -7,7 +7,7 @@ const HeaderSection = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div
       ref={ref}
-      className={classNames("flex flex-col md:flex-row items-center justify-around mt-[150px] p-5 md:p-10")}
+      className={classNames("flex flex-col xl:flex-row items-center justify-around mt-[150px] p-5 md:p-10")}
     >
       {/* Logo section */}
       <div className="flex self-center mb-10">
@@ -23,13 +23,18 @@ const HeaderSection = React.forwardRef<HTMLDivElement>((_, ref) => {
         </div>
         <p className="text-3xl md:text-6xl font-extrabold uppercase gradient-text-animated">Fight or Die</p>
         <div>
-          <p className="text-lg font-semibold">We beseech thee to partake in our grandest</p>
-          <p className="text-lg font-semibold">spectacle, the live action Telegram bot,</p>
-          <p className="text-lg font-semibold">where valor and fortune await!</p>
+          <p className="text-sm md:text-xl font-semibold">We beseech thee to partake in our grandest</p>
+          <p className="text-sm md:text-xl font-semibold">spectacle, the live action Telegram bot,</p>
+          <p className="text-sm md:text-xl font-semibold">where valor and fortune await!</p>
         </div>
 
         <div className="flex flex-row items-center gap-4">
-          <Button variant="primary" className="capitalize">
+          <Button
+            href="https://twitter.com/ChampionArenaTG"
+            target="__blank__"
+            variant="primary"
+            className="capitalize"
+          >
             twitter
           </Button>
           <Button variant="primary" className="capitalize">

@@ -28,7 +28,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col gap-10 md:gap-20 bg-primary min-h-screen">
+    <div className="bg-bgImage bg-cover bg-fixed flex flex-col gap-10 md:gap-20 bg-primary min-h-screen">
       <Navbar onClick={onClick} />
       <HeaderSection ref={topRef} />
       <AboutSection ref={aboutRef} />

@@ -23,7 +23,7 @@ const Card: React.FC<Props> = ({ title, subtitle, body, points, icons, blur = tr
         "flex flex-col",
         "gap-6 w-[300px] min-h-[140px] md:min-h-[240px]",
         blur && "backdrop-blur-sm",
-        "border rounded-[10px] p-3"
+        "border border-black rounded-[10px] p-3"
       )}
     >
       <div

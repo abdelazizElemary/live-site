@@ -8,7 +8,7 @@ const Navbar = React.forwardRef<HTMLDivElement, Props>(({ onClick }, ref) => {
   return (
     <div
       ref={ref}
-      className="fixed flex flex-row w-full justify-center md:justify-between items-center p-2 md:p-5 md:px-10 z-50"
+      className="fixed flex flex-row w-full justify-center xl:justify-between items-center p-2 md:p-5 md:px-10 z-50"
     >
       <div className="flex flex-row justify-between self-center items-center gap-2 text-lg p-2 md:px-6 backdrop-blur-lg bg-opacity-10 rounded-xl shadow-md border border-[#bbbbbb] border-opacity-10 md:w-2/3">
         <p onClick={() => onClick?.("about")} className="cursor-pointer hover:text-3xl">
@@ -20,11 +20,15 @@ const Navbar = React.forwardRef<HTMLDivElement, Props>(({ onClick }, ref) => {
         <p onClick={() => onClick?.("howToPlay")} className="cursor-pointer hover:text-3xl">
           Instructions
         </p>
-        <a href="https://twitter.com/ChampionArenaTG" target="__blank__" className="cursor-pointer hover:text-3xl">
-          Document
+        <a
+          href="https://arena-organization.gitbook.io/champions-arena/"
+          target="__blank__"
+          className="cursor-pointer hover:text-3xl"
+        >
+          Gitbook
         </a>
       </div>
-      <Button variant="primary" className="hidden md:flex text-xl font-semibold h-14">
+      <Button variant="primary" className="hidden xl:flex text-xl font-semibold h-14">
         Buy
       </Button>
     </div>
