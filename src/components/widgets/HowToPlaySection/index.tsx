@@ -19,7 +19,7 @@ const HowToPlaySection = React.forwardRef<HTMLDivElement, Props>(({ className },
         how to play
       </p>
 
-      <div className="flex flex-wrap justify-center items-start gap-6 self-center xl:w-8/12">
+      <div className="flex flex-wrap justify-center items-start gap-6 self-center w-full">
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <Card
             title="step 1"
