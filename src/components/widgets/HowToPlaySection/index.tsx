@@ -1,6 +1,4 @@
-// import Video from "../../../assets/videos/championsArena.mp4";
 import classNames from "classnames";
-import Frame from "../../../assets/images/mobileFrame.png";
 import React from "react";
 import Card from "../Card";
 import { Fade } from "react-awesome-reveal";
