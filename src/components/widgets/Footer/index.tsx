@@ -7,7 +7,7 @@ type Props = {
 const Footer: React.FC<Props> = ({ onClick }) => {
   return (
     <div className="realtive flex flex-col items-center justify-center p-5 md:p-12">
-      <p className="text-3xl md:text-6xl gradient-text-animated capitalize">ChampionsArena</p>
+      <p className="text-3xl md:text-6xl gradient-text-animated capitalize font-bold">ChampionsArena</p>
       <p className="text-3xl md:text-6xl">2023</p>
       <div
         onClick={onClick}
