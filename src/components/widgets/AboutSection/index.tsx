@@ -54,7 +54,10 @@ const AboutSection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref
               />
             </Fade>
             <Fade direction={fadeDirection} duration={fadeDuration}>
-              <Card title="Fair for All" body="Roll probabilities are completely random. More is listed below." />
+              <Card
+                title="Fair for All"
+                body="Additional details are listed below, along with more information located in the document tab"
+              />
             </Fade>
             <Fade direction={fadeDirection} duration={fadeDuration}>
               <Card
@@ -66,7 +69,7 @@ const AboutSection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref
             <Fade direction={fadeDirection} duration={fadeDuration}>
               <Card
                 title="Immediate disbursement"
-                body="Competition winnings are paid out after every game on chain!"
+                body="Competition winnings are paid out after every game and verifiable in our telegram!"
               />
             </Fade>
           </div>

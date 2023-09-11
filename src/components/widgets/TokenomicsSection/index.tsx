@@ -21,7 +21,7 @@ const TokenomicsSection = React.forwardRef<HTMLDivElement, Props>(({ className }
         <Fade direction={fadeDirection} duration={fadeDuration}>
           <TokenomicsCard
             title="project"
-            subtitle="All of the $Blast tokens are allocated to the liquidity pool of the game."
+            subtitle="All of the $Arena tokens are allocated to the liquidity pool of the game."
             points={["96% initial liquidity pool", "4% marketing wallet"]}
             blur
             gradient
