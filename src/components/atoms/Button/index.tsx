@@ -5,7 +5,7 @@ import React, { ReactNode } from "react";
 type Props = React.ButtonHTMLAttributes<HTMLElement> & {
   outline?: boolean;
   rounded?: boolean;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "gradientButton";
   target?: HTMLAnchorElement["target"];
   href?: HTMLAnchorElement["href"];
   icon?: ReactNode;
@@ -65,7 +65,8 @@ const Button: React.FC<React.PropsWithChildren<Props>> = React.forwardRef<HTMLAn
 
       { "!uppercase": caps },
 
-      variant === "primary" && "text-black bg-gradient-to-l from-violet-0 to-violet-1 border border-violet-1",
+      variant === "primary" &&
+        "backdrop-blur-lg bg-violet-0 bg-opacity-50 rounded-xl shadow-md border border-violet-1 border-opacity-70",
       variant === "secondary" && "text-blue-3 bg-black",
 
       disabled ? "pointer-events-none bg-bg-7 font-light" : "",

@@ -37,7 +37,7 @@ code {
 }
 
 .gradient-text-animated {
-  background: linear-gradient(90deg, rgb(162, 145, 164) 0%, rgb(0, 0, 0) 25%, #bd9aeb 75%, #b344fd 100%);;
+  background: linear-gradient(90deg, rgb(162, 145, 164) 0%, rgb(0, 0, 0) 25%, #bd9aeb 80%, #b344fd 100%);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 200%;

@@ -10,7 +10,7 @@ const Navbar = React.forwardRef<HTMLDivElement, Props>(({ onClick }, ref) => {
       ref={ref}
       className="fixed flex flex-row w-full justify-center xl:justify-between items-center p-2 md:p-5 md:px-10 z-50"
     >
-      <div className="flex flex-row justify-between self-center items-center gap-2 text-lg p-2 md:px-6 backdrop-blur-lg bg-opacity-10 rounded-xl shadow-md border border-[#bbbbbb] border-opacity-10 md:w-2/3">
+      <div className="flex flex-row justify-between self-center items-center gap-2 text-lg p-2 md:px-6 backdrop-blur-lg bg-violet-0 bg-opacity-50 rounded-xl shadow-md border border-violet-1 border-opacity-70 md:w-2/3">
         <p onClick={() => onClick?.("about")} className="cursor-pointer hover:text-3xl">
           About
         </p>
