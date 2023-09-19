@@ -62,7 +62,7 @@ const AboutSection = React.forwardRef<HTMLDivElement, Props>(({ className }, ref
             <Fade direction={fadeDirection} duration={fadeDuration}>
               <Card
                 title="multiple characters"
-                body="Pick from three different characters all with different special abilities"
+                body="Pick from three different characters Warrior, Mage, and Cleric. There is a requirement of holding 10,000 $ARENA to play as Mage and 20,000 $ARENA to play as Cleric. This is due to their overpowering abilities and higher chance of winning games. The warrior class will stay free for those joining us and wanting to play with no price barrier."
                 gradient
               />
             </Fade>
