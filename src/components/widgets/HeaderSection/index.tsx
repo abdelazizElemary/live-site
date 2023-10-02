@@ -37,7 +37,12 @@ const HeaderSection = React.forwardRef<HTMLDivElement>((_, ref) => {
           >
             twitter
           </Button>
-          <Button variant="primary" className="capitalize">
+          <Button
+            href="https://t.me/championarenatg"
+            target="__blank__"
+            variant="primary" 
+            className="capitalize"
+          >
             telegram
           </Button>
         </div>
