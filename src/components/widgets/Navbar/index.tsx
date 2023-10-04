@@ -28,7 +28,7 @@ const Navbar = React.forwardRef<HTMLDivElement, Props>(({ onClick }, ref) => {
           Gitbook
         </a>
       </div>
-      <Button variant="primary" className="hidden xl:flex text-xl font-semibold h-14">
+      <Button href="https://www.dextools.io/app/en/ether/pair-explorer/0xbd02097a2ae90aa7e00d0c3b05fe822cdb5d6671" variant="primary" className="hidden xl:flex text-xl font-semibold h-14">
         Buy
       </Button>
     </div>
